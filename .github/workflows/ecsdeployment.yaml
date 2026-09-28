@@ -44,5 +44,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: ani-taskdefinition-service
-          cluster: SampleECSCluster
+          cluster: mycluster
           wait-for-service-stability: true
